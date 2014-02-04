@@ -1,19 +1,19 @@
 {
-  "name": "adapt-contrib-componentName",
+  "name": "adapt-bodyStyles",
   "version": "0.0.1",
-  "description": "Description of your component",
+  "description": "Applies state based css styles to your body.",
   "main": "",
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/adaptlearning/adapt-contrib-componentName.git"
+    "url": "git://github.com/SpongeUK/adapt-bodyStyles.git"
   },
-  "author": "AdaptLearning",
+  "author": "SpongeUK",
   "license": "GPL v3",
   "bugs": {
-    "url": "https://github.com/adaptlearning/adapt-contrib-componentName/issues"
+    "url": "https://github.com/SpongeUK/adapt-bodyStyles/issues"
   },
   "devDependencies": {
     "karma": "~0.9",

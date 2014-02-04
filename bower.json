@@ -1,15 +1,15 @@
 {
-  "name": "adapt-contrib-componentName",
+  "name": "adapt-bodyStyles",
   "version": "0.0.1",
-  "homepage": "https://github.com/adaptlearning/adapt-contrib-componentName",
+  "homepage": "https://github.com/spongeuk/adapt-bodyStyles",
   "authors": [
-    "Daryl Hedley <darylhedley@hotmail.com>"
+    "Chris Jones <chris.jones@spongeuk.com>"
   ],
-  "description": "Please enter a description about your component here. This is what will get shown when registered with the Adapt registry so make it good",
-  "main": "/js/adapt-contrib-componentName.js",
+  "description": "Applies state based css styles to your body.",
+  "main": "/js/adapt-bodyStyles.js",
   "keywords": [
     "adapt-plugin",
-    "adapt-component"
+    "adapt-extension"
   ],
   "license": "GPLv3"
 }
