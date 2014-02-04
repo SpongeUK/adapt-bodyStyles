@@ -2,6 +2,7 @@
   "name": "adapt-bodyStyles",
   "version": "0.0.1",
   "homepage": "https://github.com/spongeuk/adapt-bodyStyles",
+  "repository": "git://github.com/SpongeUK/adapt-bodyStyles.git",
   "authors": [
     "Chris Jones <chris.jones@spongeuk.com>"
   ],

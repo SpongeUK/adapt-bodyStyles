@@ -5,13 +5,18 @@
 */
 
 define(["coreJS/adapt", "./jquery-plugins"], function (Adapt, $) {
+    var previousLocation = null;
 
     Adapt.on('router:menu', function () {
         $('body').removeAllClasses({ match: /^location/i }).addClass('location-menu');
     });
 
     Adapt.on('router:page', function (page) {
-        $('body').removeAllClasses({ match: /^location/i }).addClass('location-page').addClass('location-id-'+page.get('_id'));
+        var id = page.get('_id');
+
+        $('body').removeAllClasses({ match: /^location/i }).addClass('location-page');
+        $('body').removeClass(previousLocation).addClass(id);
+        previousLocation = id;
     });
     
 });
