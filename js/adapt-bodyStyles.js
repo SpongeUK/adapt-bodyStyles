@@ -14,6 +14,4 @@ define(["coreJS/adapt", "./jquery-plugins"], function (Adapt, $) {
         $('body').removeAllClasses({ match: /^location/i }).addClass('location-page').addClass('location-id-'+page.get('_id'));
     });
     
-
-
 });
