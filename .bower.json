@@ -1,0 +1,25 @@
+{
+  "name": "adapt-bodyStyles",
+  "homepage": "https://github.com/spongeuk/adapt-bodyStyles",
+  "repository": "git://github.com/SpongeUK/adapt-bodyStyles.git",
+  "authors": [
+    "Chris Jones <chris.jones@spongeuk.com>"
+  ],
+  "description": "Applies state based css styles to your body.",
+  "main": "/js/adapt-bodyStyles.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "_release": "8009de9afa",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8009de9afa39fb8de9b5f6b76932762e33f14248"
+  },
+  "_source": "git://github.com/SpongeUK/adapt-bodyStyles.git",
+  "_target": "*",
+  "_originalSource": "adapt-bodyStyles",
+  "_direct": true
+}
